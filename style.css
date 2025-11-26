@@ -1,0 +1,83 @@
+/* Tema Warna */
+:root {
+    --abu: #e5e5e5;
+    --coklat-muda: #c9a57b;
+    --putih: #ffffff;
+    --emas: #d4af37;
+    --hitam: #222;
+}
+
+body {
+    background-color: var(--abu);
+    font-family: "Playfair Display", serif;
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: var(--putih);
+    border-bottom: 2px solid var(--emas);
+}
+
+.nav-link {
+    color: var(--hitam) !important;
+    font-weight: 600;
+    padding: 10px 18px !important;
+}
+
+.nav-link:hover {
+    color: var(--emas) !important;
+}
+
+/* HERO SECTION */
+.hero {
+    position: relative;
+    background: url('https://missuniverseskincare.com/cdn/shop/files/MissU-Web-Complete-Set_grande.jpg?v=1698261590')
+        center/cover no-repeat;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.hero h1 {
+    position: relative;
+    color: var(--putih);
+    font-size: 4rem;
+    font-weight: 700;
+    text-shadow: 0 3px 10px rgba(0,0,0,0.4);
+}
+
+/* CARD PRODUK */
+.card {
+    border: none;
+    background-color: var(--putih);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.card-title {
+    color: var(--coklat-muda);
+    font-weight: bold;
+}
+
+/* FOOTER */
+footer {
+    background-color: var(--putih);
+    padding: 20px;
+    border-top: 2px solid var(--emas);
+    text-align: center;
+    font-weight: 600;
+}
+
+
